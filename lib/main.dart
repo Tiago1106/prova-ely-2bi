@@ -90,7 +90,7 @@ Widget FormularioProvaUI(var formularioProva) {
           });
         }),
     RaisedButton(
-        child: Text("Consultar"),
+        child: Text("Vizualizar Estatisticas"),
         onPressed: () {
           formularioProva.formKey.currentState.save();
 
